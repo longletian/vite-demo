@@ -1,17 +1,12 @@
 <template>
-  <p>hello</p>
+  <router-view></router-view>
 </template>
 
 
 <script lang="ts">
-import HelloWorld  from './components/HelloWorld.vue'
 export default {
-  components: {
-    HelloWorld
-  },
-  setup() {
-
-  },
+  components: {},
+  setup() {},
 };
 </script>
 
